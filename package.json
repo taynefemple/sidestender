@@ -1,0 +1,37 @@
+{
+  "name": "sidestender",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/server"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "~1.18.2",
+    "bootstrap": "^4.0.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "express-session": "^1.15.6",
+    "morgan": "~1.9.0",
+    "pg": "^7.4.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "sequelize": "^4.33.4",
+    "serve-favicon": "~2.4.5",
+    "socket.io": "^2.0.4",
+    "webrtc": "^1.14.1",
+    "webrtc-adapter": "^6.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.1",
+    "webpack": "^3.11.0"
+  },
+  "description": "review project",
+  "main": "index.js",
+  "author": "WayneTemple",
+  "license": "ISC"
+}
