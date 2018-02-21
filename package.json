@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/server"
+    "start": "node ./bin/server",
+    "start:dev": "webpack -w & nodemon index.js -e js,html --watch"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -13,7 +14,9 @@
     "debug": "~2.6.9",
     "express": "~4.15.5",
     "express-session": "^1.15.6",
+    "lodash": "^4.17.5",
     "morgan": "~1.9.0",
+    "path": "^0.12.7",
     "pg": "^7.4.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -27,6 +30,7 @@
     "webrtc-adapter": "^6.1.1"
   },
   "devDependencies": {
+    "babel-loader": "^7.1.2",
     "nodemon": "^1.15.1",
     "webpack": "^3.11.0"
   },
